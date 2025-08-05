@@ -24,6 +24,29 @@ Ideal for development, testing, or backup purposes.
 - **PostgreSQL CLI tools** (`pg_dump`, `psql`)
 - Access to both databases via URI (e.g. `postgresql://user:pass@host/dbname`)
 
+### 📦 Installing PostgreSQL Tools
+
+**macOS (with Homebrew):**
+```bash
+brew install postgresql
+```
+
+**Ubuntu/Debian:**
+```bash
+sudo apt-get install postgresql-client
+```
+
+**CentOS/RHEL:**
+```bash
+sudo yum install postgresql
+```
+
+**Windows:**
+Download PostgreSQL from the [official website](https://www.postgresql.org/download/windows/) or use Chocolatey:
+```bash
+choco install postgresql
+```
+
 
 ## 📁 Project Structure
 
